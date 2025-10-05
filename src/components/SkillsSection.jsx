@@ -13,8 +13,8 @@ const Skills = [
     {name: "Tailwind css", level: 20, category: "Frontend"},
     {name: "SQL", level: 70, category: "Backend"},
     {name: "mySQL", level: 80, category: "Backend"},
-    {name: "Unity", level: 60, category: "Engines"},
-    {name: "Godot", level: 50, category: "Engines"},
+    {name: "Unity", level: 60, category: "Game Engines"},
+    {name: "Godot", level: 50, category: "Game Engines"},
     {name: "Windows", level: 85, category: "Operating Systems"},
      {name: "Command Line", level: 70, category: "Operating Systems"},
     {name: "WSL", level: 80, category: "Operating Systems"},
@@ -35,7 +35,7 @@ const Skills = [
    
     
 ]
-const categories = ["all", "Programming Languages", "Frontend", "Backend", "Engines", "Operating Systems", "Tools", 'Conceptual']
+const categories = ["all", "Programming Languages", "Frontend", "Backend", "Game Engines", "Operating Systems", "Tools", 'Conceptual']
 
 export const SkillsSection = () =>{
     const [activeCategory, setActiveCategory] = useState("all")
